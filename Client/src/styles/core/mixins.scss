@@ -1,0 +1,19 @@
+
+
+@mixin tablet {
+    @media screen and (min-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: $desktop) {
+        @content;
+    }
+}
+
+@mixin isDark{
+    @container style(--theme: dark) {
+        @content
+    }
+}

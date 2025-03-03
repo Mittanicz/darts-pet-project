@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Poppins",sans-serif;
+    src: url(sansation_light.woff);
+}
+
+@font-face {
+    font-family: "Poppins, sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../assets/fonts/Poppins-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Poppins Bold, sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../assets/fonts/Poppins-SemiBold.woff2") format("woff2");
+}
+
+* {
+    box-sizing: border-box;
+
+    &:before,
+    &:after{
+        box-sizing: border-box;
+    }
+}
+
+html{
+    font-size: 62.5%;
+
+    @include tablet(){
+        font-size: 70%;
+    }
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Poppins Bold, sans-serif";
+}
+
+h1{
+    font-size: 2.8rem;
+    color: var(--primaryColor);
+}

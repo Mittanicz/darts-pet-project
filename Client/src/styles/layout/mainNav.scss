@@ -1,0 +1,20 @@
+.l-mainNav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: .5rem 1rem;
+    background: green;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-mainNav__button{
+    color: var(--fontColor);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .8rem;
+}

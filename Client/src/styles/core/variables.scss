@@ -1,0 +1,28 @@
+$tablet: 800px;
+$desktop: 1024px;
+
+$themes: (
+        '--light': (
+                'theme': 'light',
+                'fontColor': '#25282d',
+                'mainBackgroundColor': '#f9fbfd',
+                'primaryColor': '#3167f3',
+                'secondaryColor': '#a8b5d1',
+                'successColor': '#0da684',
+                'infoColor': '#41cbd8',
+                'warningColor': '#f4a14d',
+                'errorColor': '#ef3463',
+
+        ),
+        '--dark': (
+                'theme': 'dark'
+        ),
+);
+
+@each $name, $map in $themes {
+.body#{$name} {
+    @each $key, $value in $map {
+        --#{$key}: #{$value};
+        }
+    }
+}
