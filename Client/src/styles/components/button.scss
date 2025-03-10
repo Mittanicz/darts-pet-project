@@ -1,0 +1,18 @@
+.c-button{
+    background: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    border-radius: var(--borderRadius-md);
+    color: #fff;
+    padding: .8rem 1.4rem;
+    text-align: center;
+    vertical-align: middle;
+    outline: 0;
+    box-shadow: 0 1px 2px 0 rgba(49, 103,243, .35);
+    transition: var(--transition);
+
+    &:hover{
+        box-shadow: none;
+        border-color: var(--primaryColorHover);
+        background: var(--primaryColorHover);
+    }
+}

@@ -7,11 +7,14 @@ $themes: (
                 'fontColor': '#25282d',
                 'mainBackgroundColor': '#f9fbfd',
                 'primaryColor': '#3167f3',
+                'primaryColorHover': '#2a58cf',
                 'secondaryColor': '#a8b5d1',
                 'successColor': '#0da684',
                 'infoColor': '#41cbd8',
                 'warningColor': '#f4a14d',
                 'errorColor': '#ef3463',
+                'borderRadius-md': '8px',
+                'transition': '.3s all ease-out'
 
         ),
         '--dark': (

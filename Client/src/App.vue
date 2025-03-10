@@ -11,22 +11,12 @@
       </nav>
     </div>
   </header>
-
   <RouterView />
-    <nav class="l-mainNav">
-        <a href="" class="l-mainNav__button">
-            <i>X</i>
-            Sprava uzivatelu
-        </a>
-        <a href="" class="l-mainNav__button l-mainNav__button--cta">
-            S
-        </a>
-        <a href="" class="l-mainNav__button">
-            H
-        </a>
-    </nav>
+    <d-main-nav> </d-main-nav>
 </template>
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import { Icon } from '@iconify/vue';
+
 import HelloWorld from './components/HelloWorld.vue'
 </script>

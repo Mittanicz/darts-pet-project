@@ -1,9 +1,3 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
-
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
@@ -12,5 +6,11 @@ defineProps<{
       <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
     </h3>
+      <button class="c-button">Primary button</button>
   </div>
 </template>
+<script setup lang="ts">
+defineProps<{
+    msg: string
+}>()
+</script>
