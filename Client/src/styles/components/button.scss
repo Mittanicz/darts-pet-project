@@ -1,18 +1,44 @@
-.c-button{
+.c-button {
     background: var(--primaryColor);
     border: 1px solid var(--primaryColor);
     border-radius: var(--borderRadius-md);
     color: #fff;
+    cursor: pointer;
     padding: .8rem 1.4rem;
     text-align: center;
     vertical-align: middle;
     outline: 0;
-    box-shadow: 0 1px 2px 0 rgba(49, 103,243, .35);
+    box-shadow: 0 1px 2px 0 rgba(49, 103, 243, .35);
     transition: var(--transition);
 
-    &:hover{
+    &:hover {
         box-shadow: none;
         border-color: var(--primaryColorHover);
         background: var(--primaryColorHover);
+    }
+
+    &:active {
+        background: var(--primaryColorActive);
+        border-color: var(--primaryColorActive);
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+.c-button--secondary {
+    background: var(--secondaryColor);
+    border-color: var(--secondaryColor);
+    box-shadow: 0 1px 2px 0 rgba(168, 181, 209, .35);
+
+    &:hover{
+        border-color: var(--secondaryColorHover);
+        background: var(--secondaryColorHover);
+    }
+
+    &:active{
+        border-color: var(--secondaryColorActive);
+        background: var(--secondaryColorActive);
     }
 }
