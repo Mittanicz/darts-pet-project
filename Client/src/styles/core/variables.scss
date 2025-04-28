@@ -5,10 +5,12 @@ $themes: (
         '--light': (
                 'theme': 'light',
                 'fontColor': '#25282d',
+                'borderColor': '#edf2f9',
                 'mainBackgroundColor': '#f9fbfd',
                 'primaryColor': '#3167f3',
                 'primaryColorHover': '#2a58cf',
                 'primaryColorActive': '#2752c2',
+                'primaryColorTransparent': '#3167f31a',
                 'secondaryColor': '#a8b5d1',
                 'secondaryColorHover': '#8691a7',
                 'secondaryColorActive': '#8691a7',
@@ -16,6 +18,8 @@ $themes: (
                 'infoColor': '#41cbd8',
                 'warningColor': '#f4a14d',
                 'errorColor': '#ef3463',
+                'mutedColor': '#96a0b5',
+                'white': '#fff',
                 'borderRadius-md': '8px',
                 'transition': '.3s all ease-out'
 

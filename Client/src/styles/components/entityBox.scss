@@ -1,0 +1,17 @@
+.c-entityBox{
+    background: var(--primaryColorTransparent);
+    border-radius: var(--borderRadius-md);
+    display: flex;
+    gap: 1rem;
+    padding: .6rem 1.2rem;
+}
+
+.c-entityBox__label{
+    flex: 1 1 100%;
+}
+
+.c-entityBox__rightSlot{
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
