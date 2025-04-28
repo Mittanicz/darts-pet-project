@@ -1,4 +1,19 @@
 .c-formElement{
+    position: relative;
+
+    &.is-open{
+        .c-formElement__wrapper{
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            transition: var(--transition);
+        }
+
+        .c-formElement__icon{
+            transform: rotate(180deg);
+            transition: var(--transition);
+        }
+    }
+
     &.is-success{
         .c-formElement__wrapper{
             border-color: var(--successColor);

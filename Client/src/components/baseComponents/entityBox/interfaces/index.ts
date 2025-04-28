@@ -1,0 +1,1 @@
+export type { EntityBoxProps } from "./entityBoxProps.ts"
